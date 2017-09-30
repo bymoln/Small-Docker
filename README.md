@@ -1,9 +1,9 @@
 # Small-Docker
 Script to create a small docker container.
 Two feature branches:
-* Hello World in ASM
+* HelloWorld in ASM
   Requires:
   * ldd
-* Hello World in C
+* HelloWorld in C
   Requires:
   * gcc
