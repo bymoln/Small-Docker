@@ -1,5 +1,9 @@
+# Inspect
+docker image inspect bymoln/helloworld-c
+
 # First run
 docker run --name hw-c bymoln/helloworld-c
+
 # Then
 docker start hw-c
 
