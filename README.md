@@ -4,11 +4,11 @@ Create small docker containers.
 ## ASM
   HelloWorld in ASM  
   Requires:
-  * ldd
+  * ldd  
   :point_right: docker pull bymoln/helloworld-asm
 
 ## C
   HelloWorld in C  
   Requires:
-  * gcc
+  * gcc  
   :point_right: docker pull bymoln/helloworld-c
