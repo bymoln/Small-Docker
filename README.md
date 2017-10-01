@@ -1,6 +1,5 @@
 ## Create small docker containers.
 
-##  
   HelloWorld in ASM  
   Requires:
   * ldd  
