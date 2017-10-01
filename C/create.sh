@@ -7,6 +7,7 @@ cat << EOF > HelloWorld.c
 int main(void)
 {
   printf("Hi World!\n");
+  printf("Version 0.2\n");
   return 0;
 }
 EOF
@@ -17,7 +18,7 @@ gcc -static HelloWorld.c -o HelloWorld
 cat << EOF > Dockerfile
 FROM scratch
 LABEL description = "HelloWorld in C"
-LABEL version = "0.1"
+LABEL version = "0.2"
 COPY HelloWorld /
 CMD ["/HelloWorld"]
 EOF
