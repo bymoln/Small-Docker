@@ -6,7 +6,7 @@ cat << EOF > HelloWorld.c
 
 int main(void)
 {
-  printf("Hi World\n");
+  printf("Hi World!\n");
   return 0;
 }
 EOF
@@ -20,7 +20,7 @@ COPY HelloWorld /
 CMD ["/HelloWorld"]
 EOF
 
-docker build -t helloworld-c .
+docker build -t bymoln/helloworld-c .
 
 # Clean up
 rm HelloWorld.c HelloWorld Dockerfile
