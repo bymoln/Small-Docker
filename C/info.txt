@@ -1,5 +1,5 @@
 # First run
-docker run --name hw-c -it bymoln/helloworld-c
+docker run --name hw-c bymoln/helloworld-c
 # Then
-docker start -ai hw-c
+docker start hw-c
 

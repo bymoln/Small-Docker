@@ -1,5 +1,5 @@
 # First run
-docker run --name hw-asm -it bymoln/helloworld-asm
+docker run --name hw-asm bymoln/helloworld-asm
 # Then
-docker start -ai hw-asm
+docker start hw-asm
 
