@@ -5,5 +5,5 @@ docker image inspect bymoln/helloworld-asm
 docker run --name hw-asm bymoln/helloworld-asm
 
 # Then
-docker start hw-asm
+docker start -ia hw-asm
 
