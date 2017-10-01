@@ -35,7 +35,7 @@ CMD ["/HelloWorld"]
 EOF
 
 # Clean up
-rm HelloWorld.{nasm,o}
+rm HelloWorld.nasm HelloWorld.o
 
 echo ""
 echo "Example to build and push to Docker Hub"
