@@ -1,0 +1,6 @@
+# Run and show
+docker images
+docker run --name hw-c -it helloworld-c
+docker ps -a
+docker start -ai hw-c
+
